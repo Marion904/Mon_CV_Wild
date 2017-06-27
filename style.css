@@ -1,0 +1,65 @@
+
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-Regular.ttf') format(truetype);
+ }
+ 
+
+
+body{
+	background-color: rgb(104,187,285);
+	font-family: 'Lato',sans-serif;
+	width: 80%;
+	display: flex;
+	margin: 2em;
+	flex-direction: column;
+}
+header, footer{
+	text-align: center;
+}
+#container{
+	display: flex;
+	flex-direction: row;
+}
+
+#left-box{
+	width: 20%;
+	border-radius: 10px;
+	background-color: rgb(9,30,45);
+	padding: 1em;
+	margin: 0.5em;
+	color: white;
+	text-align: justify;
+    box-shadow: 6px 6px 6px rgba(9,30,45,.5);
+
+}
+#right-box{
+	width:70%;
+}
+#experience-box,#study-box{
+	border-radius: 10px;
+	padding: 1em;
+	margin: 0.5em;
+	background-color: white;
+	box-shadow: 6px 6px 6px rgba(255,255,255,.5);
+}
+
+figure{
+	float: left;
+}
+.enum{
+	clear: both;
+}
+p,li,dd{
+	font-size: 0.9em;
+}
+a:active{
+	font-weight: bold;
+}
+a{
+	color:white;
+}
+a:hover{
+	color:yellow;
+}
